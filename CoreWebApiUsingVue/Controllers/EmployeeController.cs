@@ -24,8 +24,7 @@ namespace CoreWebApiUsingVue.Controllers
                                 EmployeeId, 
                                 EmployeeName,
                                 Department,
-                                convert(varchar(10),
-                                DateOfJoining,120) as DateOfJoining,
+                                convert(varchar(10),DateOfJoining,120) as DateOfJoining,
                                 PhotoFileName
                             from
                                 dbo.Employee";
